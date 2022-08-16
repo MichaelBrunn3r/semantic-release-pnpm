@@ -1,0 +1,6 @@
+{
+  "**/*.(js|ts)": [
+    "eslint",
+    "pnpm run test --bail --passWithNoTests --findRelatedTests"
+  ]
+}

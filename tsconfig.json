@@ -1,0 +1,23 @@
+{
+  // https://www.typescriptlang.org/tsconfig
+  "include": ["src", "types"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "outDir": "dist"
+  }
+}
